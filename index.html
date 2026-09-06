@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Dopest Finds — cool products, smart picks, and viral finds from our videos.">
+<meta name="theme-color" content="#0b0b0f">
+<title>Dopest Finds — Stuff Worth Finding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">🔥 Fresh finds added daily <span>•</span> Shop smarter, not harder</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#">
+      <span class="brand-mark">DF</span>
+      <span class="brand-text">Dopest<span>Finds</span></span>
+    </a>
+    <nav class="top-nav">
+      <a href="#products">Finds</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#products">Browse Finds</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">THE INTERNET'S COOLEST FINDS</div>
+      <h1>Stuff you didn't know you <em>needed.</em></h1>
+      <p>Viral gadgets, useful upgrades, home wins, fitness gear and random genius finds — all in one place.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#products">See Today's Finds</a>
+        <a class="btn secondary" href="#how-it-works">How This Works</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ No membership</span><span>✓ Fast search</span><span>✓ New finds daily</span>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="orb orb-1"></div><div class="orb orb-2"></div>
+      <div class="floating-card card-a"><span class="emoji">⚡</span><div><strong>Viral Finds</strong><small>Fresh picks every day</small></div></div>
+      <div class="floating-card card-b"><span class="emoji">🏠</span><div><strong>Home Upgrades</strong><small>Stuff that actually helps</small></div></div>
+      <div class="floating-card card-c"><span class="emoji">💪</span><div><strong>Fitness Gear</strong><small>Worth the hype</small></div></div>
+      <div class="hero-center"><div class="hero-center-ring"></div><div class="hero-logo">DF</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="affiliate-note">
+  <div class="container">
+    <p><strong>Amazon Affiliate Disclosure:</strong> As an Amazon Associate I earn from qualifying purchases.</p>
+  </div>
+</section>
+
+<section class="products-section" id="products">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="section-kicker">FROM OUR VIDEOS</span>
+        <h2>Find the product you saw</h2>
+        <p>Search by product name or browse a category.</p>
+      </div>
+      <div class="count-badge"><span id="productCount">0</span> finds</div>
+    </div>
+
+    <div class="finder-panel">
+      <div class="search-wrap">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Search products from our videos..." autocomplete="off">
+      </div>
+      <div id="categoryFilters" class="filters"></div>
+    </div>
+
+    <div id="productsGrid" class="products-grid"></div>
+
+    <div id="emptyState" class="empty-state" hidden>
+      <div class="empty-icon">🔎</div>
+      <h3>No finds yet</h3>
+      <p>Try another search or category.</p>
+    </div>
+  </div>
+</section>
+
+<section class="how" id="how-it-works">
+  <div class="container">
+    <div class="section-head center">
+      <div><span class="section-kicker">SUPER SIMPLE</span><h2>See it. Find it. Grab it.</h2></div>
+    </div>
+    <div class="steps-grid">
+      <article><span>01</span><div class="step-icon">📱</div><h3>See a video</h3><p>Spot something cool in one of our Reels, Shorts or TikToks.</p></article>
+      <article><span>02</span><div class="step-icon">🔍</div><h3>Search it here</h3><p>Use the search bar to find the exact product from the video.</p></article>
+      <article><span>03</span><div class="step-icon">🛒</div><h3>View the product</h3><p>Tap through to the retailer and decide if it's right for you.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="container about-card">
+    <div><span class="section-kicker">ABOUT DOPEST FINDS</span><h2>We hunt down the good stuff.</h2></div>
+    <p>Dopest Finds is a product-discovery site built around useful, interesting and viral products. We keep it simple: show the product, tell you why it caught our attention, and give you a direct path to learn more.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="#"><span class="brand-mark">DF</span><span class="brand-text">Dopest<span>Finds</span></span></a>
+      <p>Stuff worth finding.</p>
+    </div>
+    <div class="footer-links"><a href="#products">Finds</a><a href="#how-it-works">How it works</a><a href="#about">About</a></div>
+    <div class="footer-legal"><p>As an Amazon Associate I earn from qualifying purchases.</p><p>© <span id="year"></span> Dopest Finds</p></div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
