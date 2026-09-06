@@ -1,18 +1,16 @@
 [
   {
-    "name": "Mini Portable Projector",
+    "name": "Portable Mini Projector",
     "category": "Tech",
     "emoji": "\ud83d\udcfd\ufe0f",
     "badge": "Trending",
-    "badgeClass": "pink",
     "url": "#"
   },
   {
-    "name": "Air Fryer",
+    "name": "Digital Air Fryer",
     "category": "Kitchen",
     "emoji": "\ud83c\udf5f",
     "badge": "Best Seller",
-    "badgeClass": "green",
     "url": "#"
   },
   {
@@ -20,47 +18,41 @@
     "category": "Tech",
     "emoji": "\ud83c\udfa7",
     "badge": "Popular",
-    "badgeClass": "blue",
     "url": "#"
   },
   {
     "name": "Insulated Tumbler",
     "category": "Home",
     "emoji": "\ud83e\udd64",
-    "badge": "Hot",
-    "badgeClass": "orange",
+    "badge": "Hot Find",
     "url": "#"
   },
   {
     "name": "Massage Gun",
     "category": "Fitness",
     "emoji": "\ud83d\udc86",
-    "badge": "New",
-    "badgeClass": "purple",
+    "badge": "Trending",
     "url": "#"
   },
   {
     "name": "Robot Vacuum",
     "category": "Home",
     "emoji": "\ud83e\udd16",
-    "badge": "Top Rated",
-    "badgeClass": "green",
+    "badge": "Popular",
     "url": "#"
   },
   {
     "name": "Vegetable Chopper",
     "category": "Kitchen",
     "emoji": "\ud83e\udd55",
-    "badge": "Trending",
-    "badgeClass": "pink",
+    "badge": "Best Seller",
     "url": "#"
   },
   {
     "name": "Adjustable Dumbbells",
     "category": "Fitness",
     "emoji": "\ud83c\udfcb\ufe0f",
-    "badge": "Popular",
-    "badgeClass": "blue",
+    "badge": "Hot Find",
     "url": "#"
   }
 ]
