@@ -1,106 +1,66 @@
 [
   {
+    "name": "Mini Portable Projector",
+    "category": "Tech",
+    "emoji": "\ud83d\udcfd\ufe0f",
+    "badge": "Trending",
+    "badgeClass": "pink",
+    "url": "#"
+  },
+  {
+    "name": "Air Fryer",
+    "category": "Kitchen",
+    "emoji": "\ud83c\udf5f",
+    "badge": "Best Seller",
+    "badgeClass": "green",
+    "url": "#"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "category": "Tech",
+    "emoji": "\ud83c\udfa7",
+    "badge": "Popular",
+    "badgeClass": "blue",
+    "url": "#"
+  },
+  {
+    "name": "Insulated Tumbler",
+    "category": "Home",
+    "emoji": "\ud83e\udd64",
+    "badge": "Hot",
+    "badgeClass": "orange",
+    "url": "#"
+  },
+  {
+    "name": "Massage Gun",
+    "category": "Fitness",
+    "emoji": "\ud83d\udc86",
+    "badge": "New",
+    "badgeClass": "purple",
+    "url": "#"
+  },
+  {
+    "name": "Robot Vacuum",
+    "category": "Home",
+    "emoji": "\ud83e\udd16",
+    "badge": "Top Rated",
+    "badgeClass": "green",
+    "url": "#"
+  },
+  {
+    "name": "Vegetable Chopper",
+    "category": "Kitchen",
+    "emoji": "\ud83e\udd55",
+    "badge": "Trending",
+    "badgeClass": "pink",
+    "url": "#"
+  },
+  {
     "name": "Adjustable Dumbbells",
     "category": "Fitness",
-    "description": "Compact strength-training gear for a home gym setup.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83d\udcaa",
-    "badge": "DEMO",
-    "tags": [
-      "weights",
-      "home gym"
-    ]
-  },
-  {
-    "name": "Portable Car Vacuum",
-    "category": "Auto",
-    "description": "A small cleanup tool for quick interior detailing.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83d\ude97",
-    "badge": "DEMO",
-    "tags": [
-      "car",
-      "cleaning"
-    ]
-  },
-  {
-    "name": "Magnetic Phone Mount",
-    "category": "Tech",
-    "description": "Hands-free phone positioning for desks and cars.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83d\udcf1",
-    "badge": "DEMO",
-    "tags": [
-      "phone",
-      "gadget"
-    ]
-  },
-  {
-    "name": "Countertop Ice Maker",
-    "category": "Home",
-    "description": "Fast countertop ice for drinks and entertaining.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83e\uddca",
-    "badge": "DEMO",
-    "tags": [
-      "kitchen",
-      "appliance"
-    ]
-  },
-  {
-    "name": "Mini Projector",
-    "category": "Tech",
-    "description": "A compact projector for movie nights and small spaces.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83c\udfac",
-    "badge": "DEMO",
-    "tags": [
-      "movies",
-      "projector"
-    ]
-  },
-  {
-    "name": "Cordless Spin Scrubber",
-    "category": "Home",
-    "description": "A powered cleaning tool for bathrooms and kitchens.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83e\uddfd",
-    "badge": "DEMO",
-    "tags": [
-      "cleaning",
-      "home"
-    ]
-  },
-  {
-    "name": "Portable Blender",
-    "category": "Kitchen",
-    "description": "A grab-and-go blender for smoothies and shakes.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83e\udd64",
-    "badge": "DEMO",
-    "tags": [
-      "blender",
-      "smoothie"
-    ]
-  },
-  {
-    "name": "Under-Desk Walking Pad",
-    "category": "Fitness",
-    "description": "A compact walking option for home offices.",
-    "url": "#",
-    "image": "",
-    "emoji": "\ud83c\udfc3",
-    "badge": "DEMO",
-    "tags": [
-      "walking",
-      "fitness"
-    ]
+    "emoji": "\ud83c\udfcb\ufe0f",
+    "badge": "Popular",
+    "badgeClass": "blue",
+    "url": "#"
   }
 ]

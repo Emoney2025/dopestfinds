@@ -1,44 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Dopest Finds — cool products and viral finds from our videos.">
-<title>Dopest Finds — Stuff Worth Finding</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-</head><body>
-<div class="announcement">🔥 Fresh finds added daily</div>
-<header><div class="container header-inner">
-<a class="brand" href="#"><span class="brand-mark">DF</span><span class="brand-text">Dopest<span>Finds</span></span></a>
-<a class="header-cta" href="#products">Browse Finds</a>
-</div></header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dopest Finds — find products from our videos.">
+  <title>Dopest Finds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell navrow">
+      <a class="brand" href="#">
+        <div class="baglogo">DF</div>
+        <div class="brandcopy">
+          <div class="brandname">DOPEST <span>FINDS</span></div>
+          <div class="tagline">Find the product you saw.</div>
+        </div>
+      </a>
 
-<main>
-<section class="quick-find">
-<div class="container">
-<div class="quick-copy">
-<span class="kicker">FROM OUR VIDEOS</span>
-<h1>Find the product you saw.</h1>
-<p>Search Dopest Finds and jump straight to the product.</p>
-</div>
-<div class="finder">
-<div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="What product did you see?" autocomplete="off"></div>
-<div id="categoryFilters" class="filters"></div>
-</div>
-</div>
-</section>
+      <nav class="navlinks">
+        <a class="active" href="#">Home</a>
+        <a href="#products">Categories</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
 
-<div class="disclosure">As an Amazon Associate I earn from qualifying purchases.</div>
+  <main>
+    <section class="find-area shell">
+      <div class="searchbox">
+        <span class="searchicon">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search products..." autocomplete="off">
+        <button type="button" id="searchBtn">Search</button>
+      </div>
+      <div id="categoryFilters" class="chips"></div>
+    </section>
 
-<section class="products" id="products"><div class="container">
-<div class="section-head"><div><span class="kicker">LATEST FINDS</span><h2>Products from our videos</h2></div><div class="count"><span id="productCount">0</span> finds</div></div>
-<div id="productsGrid" class="grid"></div>
-<div id="emptyState" class="empty" hidden>🔎<h3>No finds yet</h3><p>Try another search or category.</p></div>
-</div></section>
+    <section class="products shell" id="products">
+      <div class="sectiontitle">
+        <div>
+          <h1>Trending Products</h1>
+          <p>Handpicked from our favorite finds on Amazon.</p>
+        </div>
+        <button class="viewall" id="viewAllBtn">View All Products →</button>
+      </div>
 
-<section class="lower"><div class="container lower-card"><div><span class="kicker">DOPEST FINDS</span><h2>See it. Find it. Grab it.</h2></div><p>We collect useful, interesting and viral products from our videos so you can find the exact item without digging through old posts.</p></div></section>
-</main>
+      <div id="productsGrid" class="productgrid"></div>
+      <div id="emptyState" class="empty" hidden>No products found.</div>
+    </section>
 
-<footer><div class="container footer"><div class="brand"><span class="brand-mark">DF</span><span class="brand-text">Dopest<span>Finds</span></span></div><p>© <span id="year"></span> Dopest Finds · As an Amazon Associate I earn from qualifying purchases.</p></div></footer>
-<script src="app.js"></script></body></html>
+    <section class="amazon-note shell">
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    </section>
+
+    <section class="about shell" id="about">
+      <h2>About Dopest Finds</h2>
+      <p>We make it easy to find the products featured in our videos. Search, browse, and jump straight to the item you want.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footerrow">
+      <span>© <span id="year"></span> Dopest Finds</span>
+      <span>Stuff worth finding.</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
